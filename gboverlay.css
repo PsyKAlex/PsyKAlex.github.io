@@ -1,0 +1,32 @@
+/*BEGIN NES Controller Styling*/
+.controller.nes {
+    background: url(base1.png);
+    width: 832px;
+    height: 391px;
+    /*    margin-left: -416px;
+        margin-top: -175px;*/
+}
+
+.nes .button {
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    background: url(buttons1.png);
+    top: 0;
+}
+
+.nes .button.pressed {
+    background-position-y: -77px;
+    margin-top: 5px;
+}
+
+.nes .a {
+    right: 0;
+}
+
+.nes .b {
+    left: 0px;
+}
+
+
+/*END NES Controller Styling*/
