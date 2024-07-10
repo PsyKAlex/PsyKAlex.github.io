@@ -22,6 +22,7 @@
 
 .nes .a {
     right: 0;
+    up: 10;
 }
 
 .nes .b {
